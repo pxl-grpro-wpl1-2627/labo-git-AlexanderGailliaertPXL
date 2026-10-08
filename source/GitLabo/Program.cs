@@ -11,8 +11,8 @@ namespace GitLabo
             string input = Console.ReadLine();
 
             // Generate ASCII banner for input
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            string output = FiggleFonts.Standard.Render(input);
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            string output = FiggleFonts.Digital.Render(input);
             
 
             
